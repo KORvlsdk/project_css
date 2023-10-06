@@ -12,31 +12,35 @@
 .header_header {
   cursor: pointer;
   margin: 40px 0 40px 0;
+  color: rgb(252, 70, 70);
 }
 .header_category {
   list-style: none;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  gap: 5%;
   width: 75%;
   margin-bottom: 20px;
 }
 
 .header_category li {
+  text-align: center;
   font-size: 20px;
   font-weight: 400;
+  height: 100px;
+  width: 100px;
   cursor: pointer;
   padding: 7px 12px;
   background-color: fff;
-  margin-right: 20px; /* 오른쪽 마진 추가 */
-  color: rgb(252, 70, 70);
+  color: #717171;
   border-radius: 10px;
   white-space: nowrap;
-  margin: auto;
   font-weight: bold;
-  border: 1px solid rgb(252, 70, 70);
+  border: 1px solid #717171;
 }
 .header_category li:hover {
-  color: #fff;
-  border: 1px solid #fff;
-  background-color: rgb(252, 70, 70);
+  color: rgb(252, 70, 70);
+  border: 1px solid rgb(252, 70, 70);
+  background-color: #fff;
 }
