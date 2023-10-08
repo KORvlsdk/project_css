@@ -20,7 +20,7 @@ $(document).ready(function() {
             $(pwPlaceholder).addClass('focused');
         });
         inputPW.addEventListener('blur', () => {
-            if(inputID.value==null || inputID.value=='') {
+            if(inputPW.value==null || inputPW.value=='') {
                 $(pwPlaceholder).removeClass('focused');
             } else {
                 $(pwPlaceholder).addClass('focused');
