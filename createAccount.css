@@ -121,7 +121,7 @@ body{
     height: 70px;
     background-color: #777;
     color: #fff;
-    box-shadow: 0 0 3px 0 dodgerblue;
+    box-shadow: 0 0 5px 0 dodgerblue;
     z-index: 22;
 }
 .tooltip.hidden{
@@ -134,7 +134,7 @@ body{
     width: 10px;
     height: 10px;
     background-color: dodgerblue;
-    box-shadow: 0 0 3px 0 dodgerblue;
+    box-shadow: 0 0 5px 0 dodgerblue;
     right: 195px;
     top: 30px;
     transform: rotate(45deg);
