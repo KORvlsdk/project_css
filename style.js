@@ -9,7 +9,7 @@ $(document).ready(function() {
             $(idPlaceholder).addClass('focused');
         });
         inputID.addEventListener('blur', () => {
-            if(inputID.value===null || inputID.value==='') {
+            if(inputID.value==null || inputID.value=='') {
                 $(idPlaceholder).removeClass('focused');
             } else {
                 $(idPlaceholder).addClass('focused');
@@ -20,7 +20,7 @@ $(document).ready(function() {
             $(pwPlaceholder).addClass('focused');
         });
         inputPW.addEventListener('blur', () => {
-            if(inputID.value===null || inputID.value==='') {
+            if(inputID.value==null || inputID.value=='') {
                 $(pwPlaceholder).removeClass('focused');
             } else {
                 $(pwPlaceholder).addClass('focused');
