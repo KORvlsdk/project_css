@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    //입력폼 관련 이벤트 처리(회원가입)
     const inputID = document.getElementById('id');
     const inputPW = document.getElementById('pw');
     const inputPW_C = document.getElementById('pw_confirm');
@@ -80,7 +81,13 @@ $(document).ready(function() {
         $(tooltip_email).addClass('hidden');
     });
 
-    
-
+    // 가로 스크롤 관련
+    const ulscroll = document.querySelector(".header_category");
+    document.querySelector("#left").addEventListener("click", () => {
+        ulscroll.scrollLeft -= 100; // 왼쪽으로 스크롤
+    });
+    document.querySelector("#right").addEventListener("click", () => {
+        ulscroll.scrollLeft += 100; // 왼쪽으로 스크롤
+    });
 });
 
