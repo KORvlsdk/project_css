@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="new_board.css">
     <title>새 글 작성하기</title>
 </head>
 <body>
+    <div class="form_wrapper">
+        <h2 class="head_title">글쓰기</h2>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div class="form_data">제목 <input type="text" name="title" id="title"></div>
+            <div class="form_data content">내용 <input type="text" name="content" id="content"></div>
+            <div class="form_data image">이미지 업로드 <input type="file" name="itemImgFile"></div>
+        </form>
+    </div>
     
 </body>
 </html>
