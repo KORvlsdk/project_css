@@ -13,10 +13,10 @@
     padding: 20px;
     box-shadow: 0 0 2px 0 rgb(250, 100, 100);
 }
-.title {
-    margin-bottom: 20px;
+.main_title {
+    padding: 10px 5%;
 }
-.best_board{
+.flex{
     display: flex;
     flex-direction: row;
     width: 90%;
@@ -29,18 +29,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 0 0 calc(25% - 20px);
+    flex: 0 0 calc(20% - 20px);
     margin: 10px;
     border: 1px solid black;
     margin-bottom: 50px;
+    width: 250px;
+    height: 340px;
+    border-radius: 15px;
+    overflow: hidden;
 }
 .thumbnail{
-    width: 250px;
-    height: 150px;
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
 }
 .board_info{
     width: 100%;
-    height: 150px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -48,11 +53,11 @@
     position: relative;
 }
 .user{
-    padding-bottom: 10px;
+    
 }
 .title{
     font-weight: bold;
-    padding-bottom: 10px;
+
 }
 .created_date{
     margin-top: auto;
@@ -65,12 +70,4 @@
 .like::before{
     content: '♥︎';
     color: red;
-}
-.board {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
 }
